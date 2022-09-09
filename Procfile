@@ -1,1 +1,1 @@
-web: sh create_config.sh && streamlit run --server.port $PORT Streamlit_Academy.py
+web: sh setup.sh && streamlit run streamlit_grade_prediction.py
